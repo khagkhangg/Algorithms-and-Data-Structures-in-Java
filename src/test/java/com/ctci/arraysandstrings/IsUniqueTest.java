@@ -9,7 +9,7 @@ class IsUniqueTest {
     @Test
     void stringNull(){
         IsUnique isUnique = new IsUnique();
-        assertFalse(isUnique.hasAllUniqueCharacters(""));
+        assertFalse(isUnique.hasAllUniqueCharacters(null));
     }
     @Test
     void stringWith129Chars(){
